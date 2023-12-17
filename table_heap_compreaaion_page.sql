@@ -1,6 +1,6 @@
 declare @rowsMin bigint=0
 declare @rowsMax bigint=CAST(0x7FFFFFFFFFFFFFFF AS bigint)
-declare @alwaysRebuildHeap bit=1
+declare @alwaysRebuildHeap bit=0
 
 DECLARE @Table_catalog NVARCHAR(128)
 DECLARE @Table_schema NVARCHAR(128)
