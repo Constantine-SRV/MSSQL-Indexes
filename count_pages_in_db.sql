@@ -1,4 +1,4 @@
-DECLARE @DB_ID   INT = DB_ID('erp_prod')   -- или нужную базу
+DECLARE @DB_ID   INT = DB_ID()   -- или нужную базу
 DECLARE @PageCountMin INT = 64
 DECLARE @N       INT = 3         -- количество заданий
 
